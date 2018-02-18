@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    tools:context="com.example.dicky.dickyaditama_1202153367_modul2.Menu1">
+
+
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/burrito"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/buritto"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:text="Rp. 50.000"
+        android:textSize="@dimen/textSize"
+        android:textAlignment="center"
+        android:textColor="#111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:text="Composition :"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/detailMenu"
+        android:text="Mexican-style rice, boiled beans, lettuce, salsa, meat, guacamole, cheese, sour cream, wraped in tortila"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DickyAditama_1202153367_Modul2</string>
+    <string name="pilih_menu">Pilih Menu :</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
+    <string name="identitas_pemesan">Identitas Pemesan</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="alamat">Alamat</string>
+    <string name="catatan">Catatan</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+    <string name="no_meja">No Meja :</string>
+    <string name="nothing_selected">Nothing Selected.</string>
+    <string name="detail_customer">Detail Customer</string>
+    <string name="burrito">Burrito</string>
+    <string name="quesadilla">Quesadilla</string>
+    <string name="taco">Taco</string>
+    <string-array name="labels_array">
+        <item>Choose</item>
+        <item>Table 1</item>
+        <item>Table 2</item>
+        <item>Table 3</item>
+        <item>Table 4</item>
+        <item>Table 5</item>
+        <item>Table 6</item>
+        <item>Table 7</item>
+        <item>Table 8</item>
+        <item>Table 9</item>
+        <item>Table 10</item>
+    </string-array>
+</resources>
